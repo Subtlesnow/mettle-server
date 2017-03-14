@@ -1,0 +1,25 @@
+{
+  "name": "mettle-server",
+  "version": "1.0.0",
+  "description": "Backend server for Space Trader Mettle!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subtlesnow/mettle-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subtlesnow/mettle-server/issues"
+  },
+  "homepage": "https://github.com/Subtlesnow/mettle-server#readme",
+  "dependencies": {
+    "knex": "^0.12.7",
+    "method-override": "^2.3.7",
+    "pg": "^6.1.4"
+  }
+}
