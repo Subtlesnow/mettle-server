@@ -1,6 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/Cellar/node/7.7.2/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
 1 verbose cli   'start' ]
 2 info using npm@4.1.2
 3 info using node@v7.7.2
@@ -9,8 +10,8 @@
 6 silly lifecycle mettle-server@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle mettle-server@1.0.0~start: mettle-server@1.0.0
 8 verbose lifecycle mettle-server@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle mettle-server@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/patrickrauls/Projects/gSchool/mettle-server/node_modules/.bin:/Users/patrickrauls/.rvm/gems/ruby-2.4.0/bin:/Users/patrickrauls/.rvm/gems/ruby-2.4.0@global/bin:/Users/patrickrauls/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/patrickrauls/.rvm/bin
-10 verbose lifecycle mettle-server@1.0.0~start: CWD: /Users/patrickrauls/Projects/gSchool/mettle-server
+9 verbose lifecycle mettle-server@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/bmatson/galvanize/q3/mettle-server/node_modules/.bin:/Users/bmatson/.rvm/gems/ruby-2.4.0/bin:/Users/bmatson/.rvm/gems/ruby-2.4.0@global/bin:/Users/bmatson/.rvm/rubies/ruby-2.4.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/bmatson/.rvm/bin
+10 verbose lifecycle mettle-server@1.0.0~start: CWD: /Users/bmatson/galvanize/q3/mettle-server
 11 silly lifecycle mettle-server@1.0.0~start: Args: [ '-c', 'node bin/www' ]
 12 silly lifecycle mettle-server@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle mettle-server@1.0.0~start: Failed to exec start script
@@ -25,9 +26,9 @@
 14 verbose stack     at maybeClose (internal/child_process.js:899:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid mettle-server@1.0.0
-16 verbose cwd /Users/patrickrauls/Projects/gSchool/mettle-server
-17 error Darwin 16.4.0
-18 error argv "/usr/local/Cellar/node/7.7.2/bin/node" "/usr/local/bin/npm" "start"
+16 verbose cwd /Users/bmatson/galvanize/q3/mettle-server
+17 error Darwin 16.0.0
+18 error argv "/usr/local/Cellar/node/7.7.2/bin/node" "/usr/local/bin/npm" "run" "start"
 19 error node v7.7.2
 20 error npm  v4.1.2
 21 error code ELIFECYCLE
