@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/Subtlesnow/mettle-server#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "knex": "^0.12.7",
     "method-override": "^2.3.7",
-    "pg": "^6.1.4",
-    "dotenv": "^4.0.0"
+    "pg": "^6.1.4"
   }
 }
