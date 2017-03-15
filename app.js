@@ -1,6 +1,5 @@
 //dependencies
-const path = require('path'),
-    express = require('express');
+const express = require('express');
 
 //methods
 const app = express();
