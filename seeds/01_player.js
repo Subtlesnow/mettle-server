@@ -9,9 +9,6 @@ exports.seed = function(knex, Promise) {
       id: 1,
       current_round: 1,
       current_credit: 200,
-      high_score1: 0,
-      high_score2: 0,
-      high_score3: 0,
       debt: 10000,
       weight_limit: 125
     }];
