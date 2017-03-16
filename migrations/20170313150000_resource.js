@@ -8,6 +8,7 @@ exports.up = function(knex, Promise) {
     resource.integer('qty_base').notNullable();
     resource.integer('qty_range').notNullable();
     resource.decimal('weight', 6, 2).notNullable();
+    resource.text('img').notNullable();
   })
 };
 

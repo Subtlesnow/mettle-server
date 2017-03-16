@@ -8,6 +8,8 @@ exports.up = function(knex, Promise) {
     planet.text('style').notNullable();
     planet.integer('neighbor1').notNullable();
     planet.integer('neighbor2').notNullable();
+    planet.integer('top').notNullable();
+    planet.integer('left').notNullable();
   })
 };
 
