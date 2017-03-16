@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
 
     const options = [{
-      id: 1,
       event_id: 1,
       description: 'Better get trading...',
       outcome: 'This is the outcome',

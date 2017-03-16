@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node bin/www",
+    "dev": "`npm bin`/nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
     "knex": "^0.12.7",
     "method-override": "^2.3.7",
     "pg": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

@@ -60,8 +60,17 @@ router.get('/player/:id', (req, res) => {
         }).catch(console.error)
     }).catch(console.error)
 })
+router.post('/player/new', (req, res) => {
+  console.log('req.body', req.body)
+  let player = req.body.player
+  query.insert_player(player)
+  .then(noob => {
+    console.log('noob', noob)
+    res.status(200).json(noob)
+  })
+})
 
-router.post('/player', json_parser, (req, res) => {
+router.post('/player', (req, res) => {
   //console.log(req.body)
   let player = req.body.player
   let resources = req.body.resources

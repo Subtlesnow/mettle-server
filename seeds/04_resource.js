@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
 
     const resources = [{
-      id: 1,
       name: 'Tacky Souveniers',
       cost_base: 15,
       cost_range: 10,
@@ -15,7 +14,6 @@ exports.seed = function(knex, Promise) {
       weight: 0.5,
       img: '../art_assets/resources/tacky_souveniers.gif',
     },{
-      id: 2,
       name: 'Space Vegetables',
       cost_base: 30,
       cost_range: 20,
@@ -24,7 +22,6 @@ exports.seed = function(knex, Promise) {
       weight: 1,
       img: '../art_assets/resources/space_vegetables.gif',
     },{
-      id: 3,
       name: 'Spare Droid Parts',
       cost_base: 100,
       cost_range: 75,
@@ -33,7 +30,6 @@ exports.seed = function(knex, Promise) {
       weight: 8,
       img: '../art_assets/resources/space_droid_parts.gif',
     },{
-      id: 4,
       name: 'Bio-Meds',
       cost_base: 200,
       cost_range: 150,
@@ -42,7 +38,6 @@ exports.seed = function(knex, Promise) {
       weight: 1.5,
       img: '../art_assets/resources/bio_meds.gif',
     },{
-      id: 5,
       name: 'Garbast Barblezargs',
       cost_base: 400,
       cost_range: 220,
@@ -51,7 +46,6 @@ exports.seed = function(knex, Promise) {
       weight: 2,
       img: '../art_assets/resources/garbast_barblezargs.gif',
     },{
-      id: 6,
       name: 'Ancient Artifacts',
       cost_base: 600,
       cost_range: 500,
@@ -60,7 +54,6 @@ exports.seed = function(knex, Promise) {
       weight: 5,
       img: '../art_assets/resources/ancient_artifacts.gif',
     },{
-      id: 7,
       name: 'Hyper Crystals',
       cost_base: 900,
       cost_range: 700,
@@ -69,7 +62,6 @@ exports.seed = function(knex, Promise) {
       weight: 6,
       img: '../art_assets/resources/hyper_crystals.gif',
     },{
-      id: 8,
       name: 'Spice',
       cost_base: 1400,
       cost_range: 1000,
@@ -78,7 +70,6 @@ exports.seed = function(knex, Promise) {
       weight: 0.2,
       img: '../art_assets/resources/spice.gif',
     },{
-      id: 9,
       name: 'Weaponized Quantonium',
       cost_base: 2200,
       cost_range: 1500,
@@ -87,7 +78,6 @@ exports.seed = function(knex, Promise) {
       weight: 12,
       img: '../art_assets/resources/weaponized_quantonium.gif',
     },{
-      id: 10,
       name: 'Tiny Universe',
       cost_base: 3000,
       cost_range: 1000,
