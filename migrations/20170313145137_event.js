@@ -4,7 +4,16 @@ exports.up = function(knex, Promise) {
     event.increments('id').primary();
     event.text('name').notNullable();
     event.enu('type', ['plot', 'random', 'triggered']).defaultTo('random').notNullable();
-    event.text('description');
+    event.text('description').notNullable();
+    event.text('outcome1label').notNullable();
+    event.text('outcome1desc').notNullable();
+    event.text('outcome1finallabel').notNullable();
+    event.text('outcome2label');
+    event.text('outcome2desc');
+    event.text('outcome2finallabel');
+    event.text('outcome3label');
+    event.text('outcome3desc');
+    event.text('outcome3finallabel');
   })
 };
 
