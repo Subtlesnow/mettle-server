@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
 
     const planets = [{
-      id: 1,
       name: 'Terra Epsilon',
       description: 'A comfortable terrestrial homeworld. Rich in low-end staples, but lacking high-end products.',
       img: '../art_assets/planets/planet04.gif',
@@ -16,7 +15,6 @@ exports.seed = function(knex, Promise) {
       top: 24,
       left: 300,
     },{
-      id: 2,
       name: 'Desodrox Outpost',
       description: 'The lone surviving outpost on a post-apocalyptic desert world.',
       img: '../art_assets/planets/planet06.gif',
@@ -26,7 +24,6 @@ exports.seed = function(knex, Promise) {
       top: 70,
       left: 75,
     },{
-      id: 3,
       name: 'Gar',
       description: 'A green gas giant with a breathable nitrogen rich atmosphere.',
       img: '../art_assets/planets/planet02.gif',
@@ -36,7 +33,6 @@ exports.seed = function(knex, Promise) {
       top: 140,
       left: 240,
     },{
-      id: 4,
       name: 'Niflhogg',
       description: 'A frozen frontier world where scavengers and explorers make up the bulk of the population.',
       img: '../art_assets/planets/planet05.gif',
@@ -46,7 +42,6 @@ exports.seed = function(knex, Promise) {
       top: 200,
       left: 55,
     },{
-      id: 5,
       name: 'Retheon',
       description: 'A yellow gas giant with gated communities and a reputation for stuck-up nobility.',
       img: '../art_assets/planets/planet01.gif',
@@ -56,7 +51,6 @@ exports.seed = function(knex, Promise) {
       top: 400,
       left: 300,
     },{
-      id: 6,
       name: 'Station Corbino',
       description: 'A terrestial dome secured to a floating patch of earth. Science and Technology reign here.',
       img: '../art_assets/planets/station.gif',
@@ -66,7 +60,6 @@ exports.seed = function(knex, Promise) {
       top: 310,
       left: 180,
     },{
-      id: 7,
       name: 'Azaz',
       description: 'A blasted hellscape laden with rivers of fire and filled with bizarre and deadly creatures.',
       img: '../art_assets/planets/planet03.gif',
@@ -76,7 +69,6 @@ exports.seed = function(knex, Promise) {
       top: 340,
       left: 40,
     },{
-      id: 8,
       name: 'Zorvos',
       description: `Homeworld of the mysterious Zorvogo people. Beautiful sunsets, but don't forget your ventilator or you will choke to death.`,
       img: '../art_assets/planets/planet08.gif',

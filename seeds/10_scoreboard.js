@@ -5,7 +5,6 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       const scores = [{
-        id: 1,
         score: 280304938,
         player_id: 1
       }]

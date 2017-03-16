@@ -39,6 +39,7 @@ module.exports = {
     //console.log('insert_player')
     return knex.insert(player)
       .into('player')
+      .returning('*')
   },
   update_player(player) {
     //console.log('update_player')
